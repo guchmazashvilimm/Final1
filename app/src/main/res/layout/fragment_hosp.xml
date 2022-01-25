@@ -1,0 +1,64 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/images"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:text="Details"
+        android:id="@+id/details"
+        android:textAlignment="center"
+        android:textColor="#57020F"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/dname"
+        android:inputType="text"
+        android:textColorHint="@color/white"
+        android:layout_marginVertical="20dp"
+        android:hint="doctor name"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/sym1"
+        android:inputType="text"
+        android:hint="symptoms"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="submit"
+        android:text="SUBMIT"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"/>
+<!--        android:layout_constraintBottom_toTopOf="@+id/editTextNote"-->
+<!--        android:layout_constraintEnd_toEndOf="@+id/editTextNote"-->
+<!--        android:layout_constraintStart_toStartOf="@+id/editTextNote"-->
+<!--        android:layout_constraintTop_toTopOf="parent" />-->
+<!--    <Button-->
+<!--        android:text="RESET"-->
+<!--        android:id="@+id/reset"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_marginStart="100dp"-->
+<!--        android:layout_marginEnd="100dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+</LinearLayout>
