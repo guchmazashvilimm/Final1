@@ -9,7 +9,7 @@ on login fragment there is a forget password button ,which helps you to change p
 ![Screenshot (264)](https://user-images.githubusercontent.com/93010014/151032394-c849015d-31b9-4dbd-bc24-42cbd831fbd4.png)
 
 
-after this we are going on a main fragment where we can choose doctor and symptoms ,we are usinf requireActivity and sharedPreferences
+after this we are going on a main fragment where we can choose doctor and symptoms ,we are using requireActivity and sharedPreferences
 
 ![Screenshot (267)](https://user-images.githubusercontent.com/93010014/151032679-62880653-56c2-4790-886b-099d05c19187.png)
 ![Screenshot (266)](https://user-images.githubusercontent.com/93010014/151032821-7890ff94-7b10-4fe8-8215-a4821f87e7a1.png)
